@@ -11,12 +11,11 @@
 ## AWS accounts
 If using ef-open, environments can share accounts or have their own.
 The reference implementation places 'prod' in one AWS account, and 'staging' and 'proto' in another.
-AWS allows accounts to have have aliases. We use these aliases in some global resource names
-| environment | account shortname | Example |
-| :---------- | :------ | :------ |
-| prod and prod-related global | `<AWS_PROD>`  | `mycompany` |
-| staging, proto, and non-prod global | `<AWS_NON-PROD>` | `mycompany-np`  |
-
+AWS allows accounts to have have [aliases](https://docs.aws.amazon.com/IAM/latest/UserGuide/console_account-alias.html). We use these aliases in some global resource names
+| environment                         | account shortname | Example        |
+|:------------------------------------|:------------------|:---------------|
+| prod and prod-related global        | `<AWS_PROD>`      | `mycompany`    |
+| staging, proto, and non-prod global | `<AWS_NON-PROD>`  | `mycompany-np` |
 
 ## Service Short Names
 Every service and fixture has a *short name* that identifies it in name strings throughout the infrastructure (AWS, config files, tools).
