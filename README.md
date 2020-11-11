@@ -6,6 +6,7 @@ This is a collection of AWS naming and resource-structuring patterns that I've d
 # Specifics
 - [Environments](./environments.md)
 - [Names](./names.md)
+- [Time](./time.md)
 
 # Principles
 - [Architecture: guiding themes](./guiding_themes.md)
