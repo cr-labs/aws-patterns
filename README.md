@@ -7,6 +7,7 @@ This is a collection of AWS naming and resource-structuring patterns that I've d
 - [Environments](./environments.md)
 - [Names](./names.md)
 - [Time](./time.md)
+- [Standup sequence](./standup-sequence.md)
 
 # Principles
 - [Architecture: guiding themes](./guiding_themes.md)
