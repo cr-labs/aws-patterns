@@ -5,9 +5,11 @@ This is a collection of AWS naming and resource-structuring patterns that I've d
 
 # Specifics
 - [Environments](./environments.md)
+- [Fixtures and Services](./fixtures-and-services.md)
 - [Names](./names.md)
-- [Time](./time.md)
+- [Directory structure](./directory-structure.md)
 - [Standup sequence](./standup-sequence.md)
 
 # Principles
 - [Architecture: guiding themes](./guiding_themes.md)
+- [Time](./time.md)
